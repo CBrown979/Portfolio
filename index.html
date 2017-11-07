@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Portfolio Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <style>
+            .logo{
+                width: 100vw;
+                z-index: -1;
+            }
+            #portfolio{
+                height: 200px;
+                width: 50%;
+            }
+            body {
+                padding-top: 70px; 
+            }
+        </style>
+    </head>
+    
+    <body id="body">
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">My Portfolio</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Section2</a></li>
+              <li><a href="#">Section3</a></li>
+              <li><a href="#">Section4</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <header id="header">
+            <div class="center text-center">
+                <h1 class="bigheadline">Hello, World!...</h1>
+                <h4 class="subheadline">I'm Candice Brown, nice to e-Meet You!</h4>
+            </div>
+            <div class="bottom">
+                <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
+            </div>
+        </header>
+
+        <section id="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="logo">
+                            <a data-scroll href="#body" class="logo-text"></a>
+                            <img class="logo" src="http://this.deakin.edu.au/wp-content/uploads/2017/04/earth-at-night.jpg" alt="Earth Dawn">
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="nav">
+                            <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i class="pe-7s-menu"></i></a>
+                             <div class="dropdown-menu">
+                                 <div class="arrow-up"></div>
+                                 <ul>
+                                     <li><a data-scroll href="#body">Home <i class="pe-7s-home"></i></a><span class="menu-effect"></span></li>
+                                     <li><a data-scroll href="#services">Service <i class="pe-7s-config"></i></a><span class="menu-effect"></span></li>
+                                     <li><a data-scroll href="#portfolio">Portfolio <i class="pe-7s-glasses"></i></a><span class="menu-effect"></span></li>
+                                     <li><a data-scroll href="#testimonial">Testimonial <i class="pe-7s-comment"></i><span class="menu-effect"></span></a></li>
+                                     <li><a data-scroll href="#contact">Contact <i class="pe-7s-help1"></i></a><span class="menu-effect"></span></li>
+                                 </ul>
+                             </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>            
+        </section>
+
+        <section id="services" class="service-area">
+            <div class="container">
+                <h2 class="block_title">My Project(ions)</h2>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap">    
+                                <i class="pe-7s-science pe-dj pe-va"></i>
+                                <h3>Current: Tribute Page</h3>
+                                <p>My Salute to Hip Hop Music</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap">
+                                <i class="pe-7s-monitor pe-dj pe-va"></i>
+                                <h3>Community Builder</h3>
+                                <p>My vision is to create a self sustaining e-Community that will change the world</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap">
+                                <i class="pe-7s-config pe-dj pe-va"></i>
+                                <h3>Initial Coin Offering API</h3>
+                                <p>Self-Explanatory - You're Welcome</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-area">
+            <div class="container">
+                <h2 class="block_title">My Works</h2>
+                <div class="row port cs-style-3">
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="https://www.canadialog.com/wp-content/uploads/2017/05/XLPrint-LogicSkin-White-on-Black-Laptop-and-Mini-Keyboard-Cover-Copy-2-300x300.jpg" alt="Computer-Chic">
+                            <figcaption>
+                                <h3>Current: Tribute Page</h3>
+                                <a href="https://cbrown979.github.io/CDTributePageHW/" class="button" >Check it out</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="http://harlemtechweek.org/wp-content/uploads/2017/09/ico-image-1-e1505886353674-300x300.jpg" alt="ICO">
+                            <figcaption>
+                                <h3>Initial Coin Offering API</h3>
+                                <a href="#" class="button">Coming Soon</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="http://www.shantigeneration.com/wp-content/uploads/2012/03/SG-community-300x300.jpg" alt="Community">
+                            <figcaption>
+                                <h3>Community Builder</h3>
+                                <a href="#" class="button" class="button">Coming Soon</a>
+                            </figcaption>
+                        </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mapWrap">
+            <div id="googleMap" style="width:100%;"></div>
+            
+            <div id="social">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul class="socialinks">
+                                <li class="normal-txt">Let's link up...</li>
+                                <li class="social-icons"><a class="twitter" href="https://twitter.com/MsExclusiveNYC"></a></li>
+                                <li class="social-icons"><a class="linkedin" href="https://www.linkedin.com/in/candice-brown-ab604b37/"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="copyright">© ButterBaby<a href="#" target="_blank"></a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
